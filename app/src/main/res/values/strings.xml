@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Interface</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_da_aplica_o">Data da Aplicação:</string>
+    <string name="respondente">Respondente:</string>
+    <string name="aplicador">Aplicador:</string>
+    <string name="local">Local:</string>
+    <string name="status">Status:</string>
 </resources>

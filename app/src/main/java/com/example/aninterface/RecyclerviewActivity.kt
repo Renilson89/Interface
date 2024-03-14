@@ -13,17 +13,19 @@ class RecyclerviewActivity : AppCompatActivity() {
     private lateinit var rvLista: RecyclerView
     private lateinit var btnClique: Button
     private lateinit var mensagemAdapter: MensagemAdapter
+    private lateinit var mainActivity: MainActivity
+    private lateinit var cliqueActualization: MainActivity
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recyclerview)
 
         val lista = mutableListOf(
-            Mensagem("Formulario 01", "teste" ),
-            Mensagem("Formulario 02", "teste" ),
-            Mensagem("Formulario 03", "teste" ),
-            Mensagem("Formulario 04", "teste" ),
-            Mensagem("Formulario 05", "teste" ),
+            Mensagem("Formulario 01" ),
+            Mensagem("Formulario 02" ),
+            Mensagem("Formulario 03" ),
+            Mensagem("Formulario 04" ),
+            Mensagem("Formulario 05" ),
         )
 
         rvLista = findViewById(R.id.rv_lista)
@@ -53,10 +55,10 @@ class RecyclerviewActivity : AppCompatActivity() {
             false
         )
 
-        btnClique.setOnClickListener {
+        cliqueActualization.setOnClickListener {
 
             lista.add(
-                Mensagem("Nova Formulario", "teste")
+                Mensagem("Nova Formulario")
 
 
             )

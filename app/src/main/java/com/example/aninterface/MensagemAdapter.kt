@@ -40,7 +40,7 @@ class MensagemAdapter(
         fun bind( mensagem: Mensagem){//Conectar com a interface
 
             textForm.text = mensagem.nome
-            textAplica.text = mensagem.ultima
+            //textAplica.text = mensagem.ultima
 
             //Aplicar eventos de clique
             //val context = cardView.context
