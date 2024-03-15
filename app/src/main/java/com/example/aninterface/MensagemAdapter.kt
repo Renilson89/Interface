@@ -16,6 +16,13 @@ class MensagemAdapter(
 
     private var listaMensagens = mutableListOf<Mensagem>()
 
+    fun executarOperacao(){
+        listaMensagens.add(
+            Mensagem("Renilson")
+        )
+        notifyItemInserted(listaMensagens.size)
+    }
+
     fun atualizarListaDados( lista: MutableList<Mensagem> ){
         //listaMensagens.addAll( lista )
         listaMensagens = lista

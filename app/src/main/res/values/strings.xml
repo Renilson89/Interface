@@ -7,4 +7,6 @@
     <string name="aplicador">Aplicador:</string>
     <string name="local">Local:</string>
     <string name="status">Status:</string>
+    <string name="formul_rio_01">Formulário: [01]</string>
+    <string name="aplica_es_realizadas">Aplicações Realizadas</string>
 </resources>

@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.concurrent.fixedRateTimer
 
 class RecyclerviewActivity : AppCompatActivity() {
 
@@ -56,15 +57,15 @@ class RecyclerviewActivity : AppCompatActivity() {
         )
 
         cliqueActualization.setOnClickListener {
-
-            lista.add(
+            mensagemAdapter.executarOperacao()
+           /* lista.add(
                 Mensagem("Nova Formulario")
-
-
             )
-            mensagemAdapter.atualizarListaDados( lista )
+            mensagemAdapter.atualizarListaDados( lista )*/
 
         }
+
+
 
         /*rvLista.addItemDecoration(
             DividerItemDecoration(
