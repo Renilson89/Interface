@@ -9,4 +9,9 @@
     <string name="status">Status:</string>
     <string name="formul_rio_01">Formulário: [01]</string>
     <string name="aplica_es_realizadas">Aplicações Realizadas</string>
+    <string name="formul_rio">Formulário</string>
+    <string name="aplica_o">Aplicação</string>
+    <string name="visializa_o">Visialização</string>
+    <string name="transmiss_o">Transmissão</string>
+    <string name="total_50">Total: 50</string>
 </resources>

@@ -51,9 +51,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
-                android:text="Total: 50"
+                android:text="@string/total_50"
                 android:textColor="@color/white"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/txt_Form"
                 app:layout_constraintTop_toTopOf="@+id/txt_Form" />
@@ -65,9 +65,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="4dp"
-                android:text="Formulário"
+                android:text="@string/formul_rio"
                 android:textColor="@color/black"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -77,9 +77,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="Aplicação"
+                android:text="@string/aplica_o"
                 android:textColor="@color/white"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/txt_Form"
                 app:layout_constraintTop_toBottomOf="@+id/txt_Form"
                 tools:ignore="MissingConstraints" />
@@ -89,9 +89,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="Visialização"
+                android:text="@string/visializa_o"
                 android:textColor="@color/white"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/txt_Transmi"
                 app:layout_constraintTop_toBottomOf="@+id/txt_Transmi" />
 
@@ -100,9 +100,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:text="Transmissão"
+                android:text="@string/transmiss_o"
                 android:textColor="@color/white"
-                android:textSize="14dp"
+                android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="@+id/text_Aplicacao"
                 app:layout_constraintTop_toBottomOf="@+id/text_Aplicacao" />
 
